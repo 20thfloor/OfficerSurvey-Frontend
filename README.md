@@ -1,4 +1,4 @@
-![alt text](https://github.com/Sarohy/officer-survey-frontend/blob/develop/src/assets/officer_logo.png)
+![alt text](https://officersurvey.com/wp-content/uploads/2022/11/Officer-Survey-New-Logo.png)
 # A Survey App
  JavaScript · JSX · JSON
  CSS · SCSS
