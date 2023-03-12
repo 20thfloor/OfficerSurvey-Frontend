@@ -1,0 +1,75 @@
+.filterFontSize {
+  margin-bottom: 15px;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+.pssFont 
+{
+  color:#FBBF47;
+}
+.totalRatingFont
+{
+  color: purple;
+}
+
+button.btn-export {
+  background: #c12a31;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 7px 4px 6px 4px;
+  max-width: 120px;
+  min-width: 107px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
+
+.donut-chart{
+  width: 320px;
+  height: 240px;
+}
+
+.donut-chart strong{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.Supervisor-pss-total-wrap .pssScore-Supervisor {
+  border: none !important;
+  margin-top: 0px !important;
+  max-width: 100%;
+    min-width: auto;
+}
+
+.Supervisor-pss-total{
+  background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    margin-top: 12px;
+    width: 410px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.Supervisor-pss-total-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.Supervisor-pie-chart{
+  display: flex;
+  justify-content: center;
+}
+
+.public-graph-star {
+  justify-content: center;
+}
+
+.Supervisor-star-rating-wrap .donut-graph-star{
+  font-family: 'Poppins' !important;
+}
+
+.Supervisor-pie-chart .NTxAv {
+  min-height: 0px;
+}

@@ -1,0 +1,29 @@
+.exportButtonInternal {
+  color: #323c47 !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+.exportButtonExternal {
+  border-radius: 20px;
+  width: 120px;
+  background-color: #00349a !important;
+}
+.exportNotesButtonExternal {
+  background-color: #00349a !important;
+  border-radius: 5px;
+  align-items: center;
+  height: 32px;
+  margin-right: 10px;
+}
+.exportButtonLink {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #ffffff;
+  font-size: 13px;
+}
+a:hover {
+  color: #323c47 !important;
+}

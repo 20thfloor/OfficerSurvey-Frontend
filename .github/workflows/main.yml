@@ -1,0 +1,124 @@
+# main workflow to run on code for checking
+name: ci
+
+# run on every commit to master and on every PR and subsequent commit on the PR
+on:
+  push:
+    branches:
+      - 'master'
+      - 'develop'
+      - 'eslint-test'
+    paths:
+      - '.github/workflows/main.yml'
+      - 'src/**'
+    tags:
+      - '*'
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+env:
+  APP_PATH: ${{ github.workspace }}/app
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install
+        working-directory: ${{ env.APP_PATH }}
+        run: npm i --ignore-scripts
+
+      - name: npm build
+        working-directory: ${{ env.APP_PATH }}
+        env:
+          SKIP_PREFLIGHT_CHECK: true
+        run: |
+          npm rebuild node-sass
+          npm run-script build
+  lint:
+    name: lint
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install
+        working-directory: ${{ env.APP_PATH }}
+        run: npm i --ignore-scripts
+
+      - name: lint check
+        working-directory: ${{ env.APP_PATH }}
+        run: npm run-script lint
+
+  format:
+    name: format
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: checkout app
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          path: ${{ env.APP_PATH }}
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install
+        working-directory: ${{ env.APP_PATH }}
+        run: npm i --ignore-scripts
+
+      - name: formatting check
+        working-directory: ${{ env.APP_PATH }}
+        run: npm run-script format

@@ -1,0 +1,77 @@
+.laptopView {
+  display: block;
+}
+
+.fxrCGW {
+  object-fit: none !important;
+}
+
+.thankyouText {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  font-family: "Poppins" !important;
+
+}
+
+.shareStyle {
+  font-size: 25px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  font-family: "Poppins" !important;
+
+}
+
+.dataStyle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  text-align: left;
+
+}
+
+@media (max-width: 600px) {
+  .laptopView {
+    display: none;
+  }
+
+  .thankyouText {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-family: "Poppins" !important;
+
+  }
+
+  .shareStyle {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-family: "Poppins" !important;
+
+  }
+
+  .dataStyle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-align: left;
+
+  }
+}
+
+.mobileView {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobileView {
+    display: block;
+  }
+}

@@ -1,0 +1,5 @@
+export const SET_START_DATE = 'SET_START_DATE'
+export const SET_END_DATE = 'SET_END_DATE'
+export const SET_CALLBACK_COUNT = 'SET_CALLBACK_COUNT'
+export const SET_USER = 'SET_USER'
+export const SET_PLAN = 'SET_PLAN'

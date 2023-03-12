@@ -1,0 +1,4 @@
+.model-officerdailog button.secondaryButton:not(:disabled) {
+    background-color: #003399 !important;
+    color: #fff;
+  }

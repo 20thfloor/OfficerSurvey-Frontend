@@ -1,0 +1,22 @@
+.dataStyle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-align: left;
+
+}
+
+@media (max-width: 767px) {
+    .dataStyle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.4px;
+        text-align: left;
+
+    }
+
+}

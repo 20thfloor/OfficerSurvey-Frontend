@@ -1,0 +1,95 @@
+.primaryButton {
+  background-color: #108572;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.secondaryButton {
+  background-color: #ffffff;
+  color: #323c47;
+  cursor: pointer;
+  border: 1px solid #323c47;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.dangerButton {
+  background-color: #c12a31;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.greyButton {
+  background-color: #c4c4c4;
+  color: #323c47;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.officerButton {
+  background-color: #003399;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.blackButton {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.smallButton {
+  width: 95px;
+  height: 35px;
+}
+
+.mediumButton {
+  width: 135px;
+  height: 35px;
+}
+
+.largeButton {
+  width: 175px;
+  height: 35px;
+}
+
+
+.fullWidth {
+  width: 100%;
+}

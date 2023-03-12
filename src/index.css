@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins" "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #323c47 !important;
+}
+
+h3,
+h6,
+h5,
+p,
+h1,
+h2,
+h4 {
+  margin: 0 !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: #323c47 !important;
+}
+.btn-primary{
+  background-color:#00349a !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* css */
+
+.MuiListItem-gutters {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+}
+.MuiBadge-anchorOriginTopRightRectangle {
+	top: -3px !important;
+	right: 11px !important;
+	}
+  .MuiButtonBase-root svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  /* .MuiListItem-button:hover {
+    background-color: rgba(0, 51, 153, 0.06) !important;
+  } */
+  .MuiListItem-button {
+    border-radius: 12px !important;
+  }
+  .Supervisor-pss-total {
+    background: transparent !important;
+    box-shadow: unset !important;
+    padding: 0px !important;
+  }
+  .Supervisor-pss-total > div {
+    background: #fff;
+    padding: 18px;
+    border: 1px solid #00339942 !important;
+    margin-right: 10px;
+  }
+  .Supervisor-pss-total {
+    justify-content: center !important;
+  }
+  .mediumButton {
+    width: 165px !important;
+    height: auto !important;
+    padding: 12px;
+  }
+  .MuiTable-root thead {
+    background: #039;
+  }
+  .MuiTable-root thead th p {
+    color: #fff !important;
+  }
+  .officer_table {
+    height: 100% !important;
+  }
+.MuiTable-root thead {
+    background: #039;
+  }
+ .MuiTable-root thead th p {
+    color: #fff !important;
+  }
+  .officer_div .MuiTable-root thead {
+    background: #039;
+  }
+  .officer_div .MuiTable-root thead th p {
+    color: #fff !important;
+  }
+  .largeButton {
+    height: unset !important;
+    padding: 10px !important;
+  }
+  .MuiTableContainer-root {
+   
+    border-radius: 10px;
+  }
+  .MuiGrid-container {
+    justify-content: space-between;
+  }
+  .MuiTableCell-root {
+    padding: 16px 12px !important;
+  }
+  .knrhkG {
+    justify-content: space-between !important;
+  }
+  .MuiGrid-container .MuiGrid-item > div .px-2 {
+    padding-right: 0px !important;
+  }
+  .officer_div .MuiTable-root .MuiTableRow-root:hover {
+    background: #00339914 !important;
+  }
+  .officer_div  .MuiTable-root .MuiTableRow-root{
+  transition: all 300ms;;
+  }
+  .CallBackWrapper  .MuiTable-root .MuiTableRow-root:hover {
+    background: #00339914 !important;
+  }
+  .CallBackWrapper  .MuiTable-root .MuiTableRow-root{
+  transition: all 300ms;;
+  }
+  /* .rating_div.mt-2.mb-2 {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px !important;
+    border: 1px solid #e6e6e6;
+    transition: all 300ms;;
+  }
+  .rating_col {
+    width: 90%;
+  }
+  .rating_colrght {
+    width: 10%;
+    padding: 0px 0px 0px 15px;
+    flex-direction: row-reverse;
+  }
+  .rating_div.mt-2.mb-2:hover{
+    background: #039;
+  }
+  .rating_div.mt-2.mb-2:hover .rating_colrght .mt-2{
+    color: #fff;
+  } */
+
+  .MuiBox-root.MuiBox-root-156 {
+    margin-top: 13px;
+  }
+  .MuiGrid-root .fullHeight.bodyWithoutPadding {
+    padding: 0 !important;
+  }
+  .MuiGrid-root .fullHeight.bodyWithoutPadding hr{
+    display: none;
+  }
+
+  .survay_qs .d-flex h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .jPSLlZ {
+   
+    color: black !important;
+    padding-top: 11px;
+  }
+  .survay_qs  .MuiFormGroup-root {
+    margin-top: 10px;
+  }
+  .survay_qs .bodyWithoutPadding {
+    padding-bottom: 10px !important;
+  }
+  .CallBackWrapper .MuiTable-root .MuiTableRow-root:nth-child(2n) {
+    background: #00339914;
+  } 
+  .officer_div .MuiTable-root .MuiTableRow-root:nth-child(2n) {
+    background: #00339914;
+  }
+  .survay_qs  .float-right {
+    float: unset !important;
+    text-align: right;
+  }
+  .Main-servey  .iMPxpM {
+    border: 0px solid #dadada !important;
+   
+  }
+  .Main-servey .MuiBox-root.MuiBox-root-10 {
+    margin: 0;
+  }
+  .Main-servey .cPiNSt {
+    height: 46px;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  body{
+    background-color: #e6e5e1 !important;
+  }
+  .Main-servey .MuiInputBase-root.MuiInput-root.MuiInput-underline.pb-0 {
+    margin-left: 12px;
+  }
+  .Main-servey .MuiInput-underline::before{
+    display:none;
+  }
+  .Main-servey {
+    width: 81%;
+    margin: auto;
+  }
+  .Main-servey .bodyWithoutPadding {
+    padding: 16px 0 !important;
+    background: transparent;
+  }
+  .Main-servey .input {
+    background: transparent;
+  }
+  .Main-servey  .question-style {
+   
+    font-weight: bold !important;
+  }
+  .Main-servey  .bodyWithoutPadding .MuiBox-root {
+    margin-top: 14px;
+  }
+  .Main-servey  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  .Main-servey  .MuiIconButton-label,.makeStyles-drawerOpen-9  .MuiIconButton-label {
+    visibility: hidden;
+  }
+  .Main-servey  .MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 ,.makeStyles-drawerOpen-9     .MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1{
+    position: relative;
+    left: -23px;
+  }
+  .Main-servey  .MuiFormControlLabel-root.active ,.makeStyles-drawerOpen-9 .MuiFormControlLabel-root.active {
+    background: #194FBB !important;
+    color:white ;
+  }
+  .makeStyles-drawerOpen-9  .MuiFormControl-root {
+    width: 100%;
+  }
+  .Main-servey .MuiFormControlLabel-root:hover ,.makeStyles-drawerOpen-9   .MuiFormControlLabel-root:hover{
+    background: #d1cfc8;
+  }
+  .Main-servey .MuiFormControlLabel-root,.makeStyles-drawerOpen-9   .MuiFormControlLabel-root{
+    border: 1px solid #b7b5b0;
+    padding: 4px 0;
+    border-radius: 6px;
+    margin-bottom: 15px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .Main-servey .input,.makeStyles-drawerOpen-9 .input{
+    background: transparent;
+    border: 1px solid #b7b5b0 !important;
+    border-radius: 7px;
+  }
+  .Main-servey .iPyRtb,.Main-servey .gvCghv {
+    border: 1px solid #b7b5b0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 0;
+    background: transparent;
+  }
+  .sc-Fpjer.fPzWKB {
+    background: #039;
+    color: white !important;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 4px 5px 0 0;
+  }
+  .MuiBox-root-192 {
+    margin-top: 10px;
+  }
+  /* .CallBackWrapper .MuiTableCell-root:nth-child(2) .sc-cBEiUn.ixHsxG {
+    color: #039 !important;
+  } */
+  .CallBackWrapper .MuiTableCell-root:nth-child(3) .sc-cBEiUn.ixHsxG {
+    color: #108572 !important;
+    text-align: left;
+  }
+  .Main-servey .bodyWithoutPadding .d-flex.align-items-center {
+    align-items: start !important;
+  }
+  .image {
+    height: auto  !important;
+  }
+
+  .Main-servey .MuiFormControlLabel-root.active::after,.makeStyles-drawerOpen-9 .MuiFormControlLabel-root.active::after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    right: 11px;
+    font-size: 20px;
+  }
+  .officer_div .sc-giQjQO.knrhkG p {
+    font-weight: bold;
+    padding-top: 9px;
+  }
+ 
+  .officer_div .d-flex.justify-content-center.align-items-center.h-100 {
+    justify-content: end !important;
+  }
+  .CallBackWrapper .MuiTableCell-root:nth-child(3) .sc-cBEiUn.ixHsxG {
+    color: #000 !important;
+  }
+  .MuiDialogActions-spacing .mediumButton {
+    width: auto !important;
+    height: auto !important;
+    padding: 6.3px 2px !important;
+    background: #039;
+    color: #fff;
+    opacity: unset !important;
+  }
+  .search_citizen .MuiTable-root .MuiTableRow-root:nth-child(2n) {
+    background: #00339914;
+  }
+  .search_citizen  .MuiTable-root .MuiTableRow-root:hover {
+    background: #00339914 !important;
+  }

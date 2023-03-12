@@ -1,0 +1,2 @@
+import OfficerDistributedBarGraph from './OfficerDistributedBarGraph'
+export default OfficerDistributedBarGraph

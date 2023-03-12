@@ -1,0 +1,38 @@
+.navItems {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 24px;
+  color: #707683 !important;
+  margin-left: 16px !important;
+}
+
+.selectedNavItem {
+  color: white !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 24px;
+  margin-left: 16px !important;
+}
+
+.supportdNavItem {
+  color: white !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px !important;
+}
+
+.logoStyle {
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

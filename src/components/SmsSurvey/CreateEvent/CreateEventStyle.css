@@ -1,0 +1,109 @@
+.officerButtonBox {
+    background: #F7F7F7;
+    border-radius: 12px;
+    padding: 35px 80px;
+}
+
+.officerButtonBox button {
+    height: 48px;
+    width: 220px;
+    font-size: 16px;
+}
+
+.eventPopupButtonWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 31px;
+    right: 20px;
+    cursor: pointer;
+}
+.createEventPopupWrapper input {
+    border-radius: 4px;
+    height: 44px;
+}
+
+.createEventPopupWrapper input::placeholder {
+    color: #B7B7B7;
+    opacity: 1 !important;
+}
+
+.createEventPopupWrapper fieldset {
+    border-radius: 4px !important;
+    border: none;
+}
+
+.createEventPopupWrapper .MuiFormControl-root {
+    border-radius: 4px;
+}
+
+.createEventPopupWrapper .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    height: auto;
+    padding: 3.5px 4px;
+
+}
+
+.createEventPopupWrapper .topSpaceHide {
+    padding-top: 0px !important;
+}
+
+.createEventPopupWrapper .MuiDialog-paperFullWidth {
+    width: auto;
+}
+
+.createEventPopupWrapper .upload-content {
+    text-align: center;
+}
+
+.createEventPopupWrapperInner .MuiDialog-paperWidthMd,
+.createEventPopupDeleteWrapper .MuiDialog-paperWidthMd {
+    max-width: 400px;
+    width: 100%;
+    overflow-x: hidden;
+    border-radius: 16px;
+    padding-bottom: 20px;
+}
+
+.createEventPopupWrapperInner div,
+.createEventPopupDeleteWrapper div {
+    max-width: 100%;
+    min-width: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.createEventPopupWrapperInner .upload-content img {
+    margin-bottom: 32px;
+}
+
+.createEventPopupWrapperInner .upload-content h1 {
+    margin-bottom: 10px !important;
+}
+
+.createEventPopupWrapperInner button {
+    height: 48px;
+    width: 220px;
+    font-size: 16px;
+}
+
+.createEventPopupDeleteWrapper p {
+    font-weight: 600;
+    margin-bottom: 20px !important;
+    padding-top: 24px;
+}
+
+
+.selectFormDropdown input {
+    background: #fff url("../../../assets/downarrow.png") no-repeat scroll 99%;
+    cursor: pointer;
+}
+
+.selectFormDropdown .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 16px !important;
+}

@@ -1,0 +1,2 @@
+import CommunitySurveyResponseReport from './CommunitySurveyResponseReport'
+export default CommunitySurveyResponseReport

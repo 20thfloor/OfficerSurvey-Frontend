@@ -1,0 +1,2 @@
+import EmployeeSurveyResponseReport from './EmployeeSurveyResponseReport'
+export default EmployeeSurveyResponseReport

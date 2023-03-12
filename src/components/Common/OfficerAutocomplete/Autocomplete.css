@@ -1,0 +1,15 @@
+.input {
+  /* height: 84px; */
+  width: 100%;
+
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* color: #323c47 !important; */
+
+  border: 1px solid #dedede !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+}

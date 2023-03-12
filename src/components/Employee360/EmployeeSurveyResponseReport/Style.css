@@ -1,0 +1,7 @@
+.anchortext {
+  color: black !important;
+}
+
+.anchortext:hover {
+  color: white !important;
+}

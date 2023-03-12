@@ -1,0 +1,2 @@
+import CommunityFeedbackResponse from './CommunityFeedbackResponse'
+export default CommunityFeedbackResponse

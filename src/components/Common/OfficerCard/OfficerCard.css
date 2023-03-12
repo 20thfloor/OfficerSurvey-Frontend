@@ -1,0 +1,15 @@
+.bodyWithoutPadding {
+  padding: 5px;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+}
+.fullHeight {
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .bodyWithoutPadding {
+    padding: 12px !important;
+  }
+}

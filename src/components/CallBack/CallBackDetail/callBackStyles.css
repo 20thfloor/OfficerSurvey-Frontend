@@ -1,0 +1,103 @@
+.textColor {
+  color: white !important;
+}
+
+.btn-width-auto button {
+  width:auto;
+}
+
+.read-survey button {
+  color: #323C47;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.callbackContentWrapper #responsive-dialog-title,
+.contact-details-wrap   #responsive-dialog-title {
+  padding: 26px 24px;
+  padding-bottom: 16px;
+}
+.callbackContentWrapper h2,.contact-details-wrap h2,
+.readCommentPopupWrapper h1{
+
+  color: #194FBB !important;
+  font-size: 19px;
+  font-weight: bold;
+}
+.callbackContentWrapper textarea{
+    min-height: 200px;
+    resize: none;
+    border-radius: 6px;
+    margin-bottom: -16px;
+}
+.contact-details-wrap   #responsive-dialog-title,
+.readCommentPopupWrapper #responsive-dialog-title{padding-bottom:6px;}
+.contact-details-wrap  label{font-weight: 600;}
+
+.contact-details-wrap input{
+  border: none;
+  border-bottom: 1px solid #dedede;
+  border-radius: 0px;
+  padding-left: 0.5rem;
+  margin-bottom: 10px;
+  height: 36px;
+}
+
+.contact-details-wrap .MuiDialogActions-root,
+.readCommentPopupWrapper .MuiDialogActions-root{
+  padding: 8px 24px 24px 8px;
+}
+
+.callbackContentWrapper .MuiDialogActions-root{
+  padding: 16px 24px 24px 24px;
+}
+
+.contact-details-wrap input:focus-visible,
+.readCommentPopupWrapper input:focus-visible{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #dedede;
+}
+
+.contact-details-wrap input:disabled {
+  background-color: transparent !important;
+}
+.readCommentPopupWrapper   #responsive-dialog-title{
+  padding: 0px;
+}
+
+.readCommentPopupWrapper .sec-heading-title{
+  padding: 22px 0px;
+  padding-bottom: 4px;
+}
+.readCommentPopupWrapper textarea{
+  background: #FAFAFA;
+  border: 1px solid #DCDCDC;
+  border-radius: 6px;
+  resize: none;
+  height: 200px;
+}
+
+.callbackContentWrapper .eventPopupButtonWrapper{
+  padding: 0px;
+}
+ 
+.dropdownCustomField .MuiFormControl-root,
+.dropdownCustomField fieldset{
+  border-radius: 6px !important;
+  border: none;
+}
+.dropdownCustomField .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input{
+  height: auto;
+    padding: 3.5px 4px;
+}
+
+.add-notes-review-survey{
+  display: flex;
+    justify-content: flex-end;
+}
+
+.CallBackWrapper table td:first-child{
+  display: flex;
+  justify-content: center;
+}

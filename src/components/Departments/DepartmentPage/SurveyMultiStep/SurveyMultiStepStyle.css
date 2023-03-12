@@ -1,0 +1,50 @@
+.selectLanguage {
+  padding-right: 15px !important;
+}
+
+.backgroundColor {
+  height: 8vh;
+  padding-top: 10px;
+}
+.backgroundBoxStep {
+  color: #020202;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+
+  background-color: #dadada;
+}
+.backgroundColorStepDone {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+.backgroundColorStepCurrent {
+  color: #ffffff;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .multiStepwidth {
+    width: 66% !important;
+  }
+  .multiStepMarginLeft {
+    margin-left: 30px;
+  }
+  .multiStepMarginRight {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .multiStepwidth {
+    width: 100% !important;
+  }
+}

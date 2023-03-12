@@ -1,0 +1,119 @@
+.anchortext {
+  color: black !important;
+}
+
+.anchortext:hover {
+  color: white !important;
+}
+
+
+.column-graph-wrap  .column-heading{
+  background-color: transparent;
+  color: black !important;
+  font-weight: bold;
+  min-width: 100% !important;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+
+.column-graph-wrap .kogZzw {
+  max-height: 100%;
+  min-height: 100%;
+}
+
+.column-graph-wrap .column-graph-content {
+  box-shadow: 0 0 5px rgb(0 0 0 / 7%);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.column-chart-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 15px;
+  margin-top: 16px;
+}
+
+.column-graph-wrap .column-chart-fields-number{
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+.column-graph-wrap .column-chart-fields {
+  display: flex;
+  flex: 0 0 33%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10px 0px;
+  align-items: center;
+  border-radius: 100px;
+}
+.column-graph-wrap .column-chart-fields p  {
+   padding-left: 12px;
+   width: calc(100% - 15px);
+}
+
+.column-graph-wrap {
+  padding: 0px 15px;
+}
+
+.column-graph-wrap .column-chart-fields-gender {
+  display: flex;
+  flex: 0 0 33%;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 100px;
+
+}
+
+.column-graph-wrap .column-chart-flex-gender{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 15px;
+  margin-top: 20px;
+}
+
+.column-graph-wrap .column-chart-flex-race {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px;
+  margin-top: 16px;
+}
+
+.column-graph-wrap .column-chart-fields-race {
+  display: flex;
+  flex: 0 0 50%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10px 0px;
+  align-items: flex-start;
+  border-radius: 100px;
+}
+
+.column-graph-wrap .column-chart-fields-race p {
+  padding-left: 12px;
+  width: calc(100% - 15px);
+}
+.column-graph-wrap .column-chart-fields-gender p{
+  padding-left: 12px;
+}
+
+.column-graph-wrap .column-chart-fields-number{
+  margin-top: 0px;
+}
+
+
+@media (max-width:1300px){
+  div.column-graph-wrap .column-chart-flex-gender{
+    margin: 0px;
+    margin-top: 20px;
+  }
+}
+
